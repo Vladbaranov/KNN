@@ -1,7 +1,6 @@
 # KNN
 Алгоритм написания наборов данных  Ирисов Фишера
 
-
 Для написания ирисов Фишера на программном обеспечении необходимо подключить библиотеку numpy, matplotlib.pyplot и sklearn, и изъять нужные пакеты. 
 ![](https://raw.githubusercontent.com/Vladbaranov/KNN/master/1.png)
 
