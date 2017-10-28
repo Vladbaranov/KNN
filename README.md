@@ -8,3 +8,5 @@
 ![](https://raw.githubusercontent.com/Vladbaranov/KNN/master/2.png)
 
 Следующим шагом идет написание цикла, который позволяет находить значения координат Х и У . После нахождения координат находим переменную для изображения ирисов Фишера.
+
+![](https://raw.githubusercontent.com/Vladbaranov/KNN/master/3.png)
