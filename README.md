@@ -20,4 +20,4 @@
 После проверки работоспособности кода выходит график, на котором показаны расположение точек и принадлежность  к определенному виду  ирисов.
 
 
-![](https://raw.githubusercontent.com/Vladbaranov/KNN/master/5.png)
+![](https://raw.githubusercontent.com/Vladbaranov/KNN/master/5.1.png)
