@@ -17,7 +17,7 @@ n_neighbors = 20
 iris = datasets.load_iris()
 X = iris.data[:,   :2] у = iris.target
 h =  .02    # размер шага
-cmap_light  =  ListedColormap(['#FFAAAA',   'tfAAFFAA',   'ftAAAAFF'])  # Цвет облости 
+cmap_light  =  ListedColormap(['#FFAAAA',   'tfAAFFAA',   'ftAAAAFF'])  # Цвет области 
 cmap_bold =  ListedColormap(['#FF0000',   *#00FF00',   '#0000FF'])    # Цвет Ирисов Фишера
 ```
 
