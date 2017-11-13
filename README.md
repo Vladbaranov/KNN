@@ -53,6 +53,7 @@ np.arange(y_min,  y_max,  h)) Z = elf.predict(np.c_[xx.ravel(),  yy.ravel()])
 
 Z =  Z.reshapefxx.shape)
 `
+
 После нахождения  координат составляем области, к которым присваиваются определенным цветом. Так же даем название графику.
 
 ![](https://raw.githubusercontent.com/Vladbaranov/KNN/master/4.png)
