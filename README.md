@@ -3,7 +3,17 @@
 
 Для определения класса по обучающей выборке на программном обеспечении Python необходимо подключить библиотеку numpy, matplotlib.pyplot и sklearn, и изъять нужные пакеты. 
 
-![](https://raw.githubusercontent.com/Vladbaranov/KNN/master/1.png)
+print (__doc__)
+
+import  numpy as np
+
+import matplotlib.pyplot as  pit
+
+from matplotlib.colors import  ListedColormap
+
+from sklearn import datasets
+
+from sklearn.neighbors import NearestCentroid
 
 После подготовки нужных пакетов вызываем функцию ирисов Фишеров и задаем количество ближайших соседей, размер шага, и координаты Х и У из функции Фишера.  Так же придаем цвет для Ирисов Фишера и областям, на которых находятся  ирисы Фишера.
 
