@@ -55,9 +55,19 @@ Z =  Z.reshapefxx.shape)
 `
 
 После нахождения  координат составляем области, к которым присваиваются определенным цветом. Так же даем название графику.
+`
+pit.figure()
 
-![](https://raw.githubusercontent.com/Vladbaranov/KNN/master/4.png)
+plt.pcolormesh(xx,  yy,  Z,  cmap=cmap_light)
 
+pit.scatter(X[:,  0],  X[:,  1],  c=y,  cmap=cmap_bold>
+
+edgecolor='b',  s=20) pit.title("3-Class classification  (shrink_threshold=%r)"
+
+% shrinkage) plt.axis('tight')
+
+pit.show()
+`
 После проверки работоспособности кода выходит график, на котором показаны расположение точек и принадлежность  к определенному виду  ирисов.
 
 
