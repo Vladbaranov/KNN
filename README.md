@@ -16,7 +16,7 @@ iris = datasets.load_iris()
 X = iris.data[:,   :2] у = iris.target
 h =  .02    # размер шага
 cmap_light  =  ListedColormap(['#FFAAAA',   'tfAAFFAA',   'ftAAAAFF'])  # Цвет области 
-cmap_bold =  ListedColormap(['#FF0000',   *#00FF00',   '#0000FF'])    # Цвет Ирисов Фишера
+cmap_bold =  ListedColormap(['#FF0000',   '#00FF00',   '#0000FF'])    # Цвет Ирисов Фишера
 ```
 
 Следующим шагом идет написание цикла, который позволяет находить значения координат Х и У . После нахождения координат находим переменную Z для изображения Ирисов Фишера.
