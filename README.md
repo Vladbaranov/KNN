@@ -3,7 +3,7 @@
 
 Для определения класса по обучающей выборке на программном обеспечении Python необходимо подключить библиотеку numpy, matplotlib.pyplot и sklearn, и изъять нужные пакеты. 
 
-print (__doc__)
+print (__ doc __)
 
 import  numpy as np
 
