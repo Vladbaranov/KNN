@@ -19,7 +19,17 @@ from sklearn.neighbors import NearestCentroid
 
 После подготовки нужных пакетов вызываем функцию ирисов Фишеров и задаем количество ближайших соседей, размер шага, и координаты Х и У из функции Фишера.  Так же придаем цвет для Ирисов Фишера и областям, на которых находятся  ирисы Фишера.
 
-![](https://raw.githubusercontent.com/Vladbaranov/KNN/master/2.1.png)
+n_neighbors = 20
+
+iris = datasets.load_iris()
+
+X = iris.data[:,   :2] у = iris.target
+
+h =  .02    # размер шага
+
+cmap_light  =  ListedColormap(['#FFAAAA',   'tfAAFFAA',   'ftAAAAFF'])  # Цвет облости 
+
+cmap_bold =  ListedColormap(['#FF0000',   *#00FF00',   '#0000FF'])    # Цвет Ирисов Фишера
 
 Следующим шагом идет написание цикла, который позволяет находить значения координат Х и У . После нахождения координат находим переменную Z для изображения ирисов Фишера.
 
